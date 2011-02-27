@@ -1,11 +1,44 @@
 $black: #000;
+$red: #BF1E2D;
 
 body { 
-	font-family: Arial;
+	font-family: Myriad Pro, arial;
 	background-image: url('/img/bg.jpg');
 }
 
 .container {
 	width: 960px;
 	margin: 0 auto 0 auto;
+}
+
+.page {
+	background-color: #fff;
+	padding: 50px;
+}
+
+header {
+	margin-bottom: 25px;
+	margin-top: 20px;
+	nav {
+		float: right;
+		position: relative;
+		top: 13px;
+		ul {
+			
+			li {
+				display: inline;
+				margin-left: 20px;
+				a {
+					text-decoration: none;
+					color: $black - #333;
+					font-size: 18px;
+					font-family: MyriadPro-Semibold;
+				}
+				
+				a:hover {
+					border-bottom: 2px solid $red;
+				}
+			}
+		}
+	}
 }
