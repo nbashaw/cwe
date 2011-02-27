@@ -19,15 +19,18 @@ body {
 header {
 	margin-bottom: 25px;
 	margin-top: 20px;
+	
 	nav {
 		float: right;
 		position: relative;
-		top: 13px;
+		top: 20px;
+		
 		ul {
 			
 			li {
 				display: inline;
 				margin-left: 20px;
+				
 				a {
 					text-decoration: none;
 					color: $black - #333;
